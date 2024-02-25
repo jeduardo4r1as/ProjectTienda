@@ -25,8 +25,10 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
+
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -55,6 +57,7 @@
               "extractLicenses": false,
               "sourceMap": true
             }
+
           },
           "defaultConfiguration": "production"
         },
@@ -67,6 +70,7 @@
             "development": {
               "buildTarget": "Tienda:build:development"
             }
+
           },
           "defaultConfiguration": "development"
         },
@@ -83,14 +87,17 @@
               "zone.js",
               "zone.js/testing"
             ],
+
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
+
             "scripts": []
           }
         }
